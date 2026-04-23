@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    
+    background-color: #1D3557;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+
+
+    a{
+        color: white;
+        text-decoration: none;
+        background-color: rgb(58, 23, 255);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.1em;
+        transition: all 0.3s ease;
+    }
+    
+    a:hover{
+        transform: scale(1.2,1.2);
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+}
+
+.bleu{
+        background-color: rgb(55, 85, 182);
+        padding: 6px;
+}
+
+.image_acceuil {
+
+    position: relative;
+    
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4em;
+        color: white;
+    }
+
+    .descriptif_canton{
+        position: absolute;
+        top: 87%;
+        left: 4%;
+        background-color: white;
+        padding: 1em;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .descriptif_hautes{
+        position: absolute;
+        top: 87%;
+        left: 28%;
+        background-color: white;
+        padding: 1em;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .descriptif_belles{
+        position: absolute;
+        top: 87%;
+        left: 49.5%; 
+        background-color: white;
+        padding: 1em;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .descriptif_lac{
+        position: absolute;
+        top: 87%;
+        left: 70.8%;
+        background-color: white;
+        padding: 1em;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .descriptif_canton:hover{
+        
+    }
+    
+    .descriptif_hautes:hover{
+
+    }
+
+    .descriptif_belles:hover{
+
+    }
+
+    .descriptif_lac:hover{
+
+    }
+}
+
+
+
+footer{
+    
+    font-size: 1.2em;
+
+    .bleu1{
+        background-color: rgb(55, 85, 182);
+        padding: 6px;
+    }
+
+    background-color: rgb(180, 180, 180);
+    padding: 1px;
+    text-align: center;
+
+    .liens{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
+
+

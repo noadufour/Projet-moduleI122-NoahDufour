@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(226, 223, 223);
+}
+
+header{
+    
+    background-color: #1D3557;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+
+
+    a{
+        color: white;
+        text-decoration: none;
+        background-color: rgb(58, 23, 255);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.1em;
+        transition: all 0.3s ease;
+    }
+    
+    a:hover{
+        transform: scale(1.2,1.2);
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+}
+
+.bleu{
+    background-color: rgb(55, 85, 182);
+    padding: 6px;
+}
+
+.info{
+
+    margin: 50px;
+    
+    p{
+        margin: 5px 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    h1{
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .contenu {
+        flex: auto;
+    }
+
+    .pointe_dufour {
+        display: flex;
+        gap: 20px;
+        width: 100em;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        align-items: center;
+    }
+
+    .pointe_dufour img {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .Dom {
+        display: flex;
+        gap: 20px;
+        width: 100em;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        align-items: center;
+    }
+
+    .Dom img{
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .Liskamm{
+        display: flex;
+        gap: 20px;
+        width: 100em;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        align-items: center;
+    }
+
+    .Liskamm img{
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .Weisshorn{
+        display: flex;
+        gap: 20px;
+        width: 100em;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        align-items: center;
+    }
+
+    .Weisshorn img{
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    
+
+    .Mont_Cervin{
+        display: flex;
+        gap: 20px;
+        width: 100em;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        align-items: center;
+    }
+
+    .Mont_Cervin img{
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .Dent_Blanche{
+        display: flex;
+        gap: 20px;
+        width: 100em;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        align-items: center;
+    }
+
+    .Dent_Blanche img{
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .Grand_Combin{
+        display: flex;
+        gap: 20px;
+        width: 100em;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        align-items: center;
+    }
+
+    .Grand_Combin img{
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+}
+
+
+footer{
+    
+    font-size: 1.2em;
+
+    .bleu1{
+        background-color: rgb(55, 85, 182);
+        padding: 6px;
+    }
+
+    background-color: rgb(180, 180, 180);
+    padding: 1px;
+    text-align: center;
+
+    .liens{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
