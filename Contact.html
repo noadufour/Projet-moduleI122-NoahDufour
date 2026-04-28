@@ -34,22 +34,22 @@
 
             </div>
 
-            <form class="formulaire">
+            <form class="formulaire" action="https://formspree.io/f/xwvadwvj" method="post">
 
                 <div class="nom_prenom">
-                    <input type="text" placeholder="Nom" required>
-                    <input type="text" placeholder="Prenom" required>
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <input type="text" name="prenom" placeholder="Prenom" required>
                 </div>
                 
                 <div class="email_adresse">
-                    <input type="email" placeholder="Votre email" required>
-                    <input type="Adresse" placeholder="Votre adresse" required>
+                    <input type="email" name="email" placeholder="Votre email" required>
+                    <input type="text" name="adresse" placeholder="Votre adresse" required>
                 </div>
                 
-                <textarea placeholder="Votre message" rows="5" required></textarea>
+                <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
             
                 <button type="submit">Envoyer</button>
-                
+
             </form>
         </div>
     </div>
