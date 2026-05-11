@@ -12,33 +12,48 @@ body {
 }
 
 
-header {
+header{
+    
     background-color: #1D3557;
-    padding: 15px 30px;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-}
+    justify-content: space-around;   
+    
+    img{
+        margin: 3px;
+    }
 
-header a {
-    color: white;
-    text-decoration: none;
-    background-color: #3a17ff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 1.2em;
-    transition: all 0.3s ease;
-    margin-left: 10em;
-}
+    p{
+        font-size: 2em;
+        
+    }
 
-header a:hover {
-    transform: scale(1.1);
-    background-color: #5c32ff;
+    a{
+        color: white;
+        text-decoration: none;
+        background-color: rgb(58, 23, 255);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.1em;
+        transition: all 0.3s ease;
+    }
+    
+    a:hover{
+        transform: scale(1.2,1.2);
+        
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
 }
 
 
 .bleu {
     background-color: #3755b6;
-    height: 6px;
+    height: 10px;
     width: 100%;
 }
 
@@ -46,13 +61,12 @@ header a:hover {
 .contact {
     max-width: 1200px;
     margin: 40px auto;
-    padding: 0 20px;
 }
 
 .contact h1 {
     text-align: center;
-    margin-bottom: 40px;
-    font-size: 2.8em;
+    margin-bottom: 56px;
+    font-size: 5em;
     color: #1D3557;
 }
 
@@ -64,7 +78,7 @@ header a:hover {
     background: white;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -90,18 +104,26 @@ header a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-bottom: 3.59em;
 }
 
 .nom_prenom input,
 .email_adresse input,
 .formulaire textarea {
     width: 100%;
-    margin-bottom: 20px;
     padding: 12px;
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 1em;
     transition: border 0.3s;
+    margin-bottom: 15px;
+}
+
+.nom_prenom input:focus,
+.email_adresse input:focus,
+.formulaire textarea:focus {
+    border-color: #3755b6;
+    outline: none;
 }
 
 .formulaire button {
@@ -121,11 +143,11 @@ header a:hover {
 }
 
 
-footer{
-    
+footer {
+
     font-size: 1.2em;
 
-    .bleu1{
+    .bleu1 {
         background-color: rgb(55, 85, 182);
         padding: 6px;
     }
@@ -134,10 +156,13 @@ footer{
     padding: 1px;
     text-align: center;
 
-    .liens{
+    .liens {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        a{
+            text-decoration: none;
+        }
     }
 }
 

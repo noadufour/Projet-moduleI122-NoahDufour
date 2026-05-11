@@ -1,18 +1,18 @@
-body{
+body {
     margin: 0px;
     font-family: Arial, sans-serif;
 }
 
-header{
-    
+header {
+
     background-color: #1D3557;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-around;
 
 
-    a{
+    a {
         color: white;
         text-decoration: none;
         background-color: rgb(58, 23, 255);
@@ -21,57 +21,154 @@ header{
         font-size: 1.1em;
         transition: all 0.3s ease;
     }
-    
-    a:hover{
-        transform: scale(1.2,1.2);
+
+    a:hover {
+        transform: scale(1.2, 1.2);
     }
 
-    h1{
+    h1 {
         font-size: 3em;
     }
 
 }
 
-.bleu{
+.bleu {
     background-color: rgb(55, 85, 182);
     padding: 6px;
 }
 
-.cantons{
+.vaud {
+    position: absolute;
+    top: 63.7%;
+    left: 3%;
+    background-color: #2F5D50;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
 
-    background-color: rgb(199, 195, 195);
-    display: flex;
-    justify-content: space-around;
-    font-style: italic;
-    font-size: 1em;
-
-    a{
-        
-        color: black;
+    a {
+        font-size: 2.5em;
         text-decoration: none;
-        padding: 10px;
-        border-radius: 10px;
+        color: white;
         transition: all 0.3s ease;
+        display: flex;
     }
 
-    a:hover{
-        transform: scale(1.2,1.2);
+    a:hover {
+        transform: scale(1.1, 1.1);
+        color: #b7d8cf;
+    }
+}
+
+.valais {
+    position: absolute;
+    top: 73%;
+    left: 30.5%;
+    background-color: #2F5D50;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
+
+    a {
+        font-size: 2.5em;
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s ease;
+        display: flex;
     }
 
+    a:hover {
+        transform: scale(1.1, 1.1);
+        color: #b7d8cf;
+    }
+}
+
+.grindewald {
+    position: absolute;
+    top: 57.4%;
+    left: 38.5%;
+    background-color: #2F5D50;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
+
+    a {
+        font-size: 2.5em;
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s ease;
+        display: flex;
+    }
+
+    a:hover {
+        transform: scale(1.1, 1.1);
+        color: #b7d8cf;
+    }
+}
+
+.zermatt {
+    position: absolute;
+    top: 112%;
+    left: 50.6%;
+    background-color: #2F5D50;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
+
+    a {
+        font-size: 2.5em;
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s ease;
+        display: flex;
+    }
+
+    a:hover {
+        transform: scale(1.1, 1.1);
+        color: #b7d8cf;
+    }
+}
+
+.saas-fee {
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    background-color: #2F5D50;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
+
+    a {
+        font-size: 2.5em;
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s ease;
+        display: flex;
+    }
+
+    a:hover {
+        transform: scale(1.1, 1.1);
+        color: #b7d8cf;
+    }
 }
 
 
-.imageimage_acceuil{
-    
+.imageimage_acceuil {
+
     display: flex;
 }
 
 
-footer{
-    
+footer {
+
     font-size: 1.2em;
 
-    .bleu1{
+    .bleu1 {
         background-color: rgb(55, 85, 182);
         padding: 6px;
     }
@@ -80,9 +177,12 @@ footer{
     padding: 1px;
     text-align: center;
 
-    .liens{
+    .liens {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        a{
+            text-decoration: none;
+        }
     }
 }

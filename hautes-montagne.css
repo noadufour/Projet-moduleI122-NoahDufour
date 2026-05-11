@@ -1,19 +1,19 @@
-body{
+body {
     margin: 0px;
     font-family: Arial, sans-serif;
     background-color: rgb(226, 223, 223);
 }
 
-header{
-    
+header {
+
     background-color: #1D3557;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-around;
 
 
-    a{
+    a {
         color: white;
         text-decoration: none;
         background-color: rgb(58, 23, 255);
@@ -22,33 +22,33 @@ header{
         font-size: 1.1em;
         transition: all 0.3s ease;
     }
-    
-    a:hover{
-        transform: scale(1.2,1.2);
+
+    a:hover {
+        transform: scale(1.2, 1.2);
     }
 
-    h1{
+    h1 {
         font-size: 3em;
     }
 
 }
 
-.bleu{
+.bleu {
     background-color: rgb(55, 85, 182);
     padding: 6px;
 }
 
-.info{
+.info {
 
     margin: 50px;
-    
-    p{
+
+    p {
         margin: 5px 0;
         font-size: 16px;
         line-height: 1.5;
     }
 
-    h1{
+    h1 {
         margin-bottom: 10px;
         font-size: 24px;
     }
@@ -65,7 +65,7 @@ header{
         padding: 20px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
 
@@ -83,17 +83,17 @@ header{
         padding: 20px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
 
-    .Dom img{
+    .Dom img {
         width: 400px;
         height: auto;
         border-radius: 10px;
     }
 
-    .Liskamm{
+    .Liskamm {
         display: flex;
         gap: 20px;
         width: 100em;
@@ -101,17 +101,17 @@ header{
         padding: 20px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
 
-    .Liskamm img{
+    .Liskamm img {
         width: 400px;
         height: auto;
         border-radius: 10px;
     }
 
-    .Weisshorn{
+    .Weisshorn {
         display: flex;
         gap: 20px;
         width: 100em;
@@ -119,19 +119,19 @@ header{
         padding: 20px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
 
-    .Weisshorn img{
+    .Weisshorn img {
         width: 400px;
         height: auto;
         border-radius: 10px;
     }
 
-    
 
-    .Mont_Cervin{
+
+    .Mont_Cervin {
         display: flex;
         gap: 20px;
         width: 100em;
@@ -139,17 +139,17 @@ header{
         padding: 20px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
 
-    .Mont_Cervin img{
+    .Mont_Cervin img {
         width: 400px;
         height: auto;
         border-radius: 10px;
     }
 
-    .Dent_Blanche{
+    .Dent_Blanche {
         display: flex;
         gap: 20px;
         width: 100em;
@@ -157,17 +157,17 @@ header{
         padding: 20px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
 
-    .Dent_Blanche img{
+    .Dent_Blanche img {
         width: 400px;
         height: auto;
         border-radius: 10px;
     }
 
-    .Grand_Combin{
+    .Grand_Combin {
         display: flex;
         gap: 20px;
         width: 100em;
@@ -175,11 +175,11 @@ header{
         padding: 20px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
 
-    .Grand_Combin img{
+    .Grand_Combin img {
         width: 400px;
         height: auto;
         border-radius: 10px;
@@ -188,11 +188,11 @@ header{
 }
 
 
-footer{
-    
+footer {
+
     font-size: 1.2em;
 
-    .bleu1{
+    .bleu1 {
         background-color: rgb(55, 85, 182);
         padding: 6px;
     }
@@ -201,9 +201,12 @@ footer{
     padding: 1px;
     text-align: center;
 
-    .liens{
+    .liens {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        a{
+            text-decoration: none;
+        }
     }
 }

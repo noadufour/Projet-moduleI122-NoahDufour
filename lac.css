@@ -1,23 +1,23 @@
-body{
+body {
     margin: 0px;
     font-family: Arial, sans-serif;
     background-color: rgb(226, 223, 223);
 }
 
-header{
-    
+header {
+
     background-color: #1D3557;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-around;
 
-    p{
+    p {
         font-size: 2em;
-        
+
     }
 
-    a{
+    a {
         color: white;
         text-decoration: none;
         background-color: rgb(58, 23, 255);
@@ -26,33 +26,33 @@ header{
         font-size: 1.1em;
         transition: all 0.3s ease;
     }
-    
-    a:hover{
-        transform: scale(1.2,1.2);
+
+    a:hover {
+        transform: scale(1.2, 1.2);
     }
 
-    h1{
+    h1 {
         font-size: 3em;
     }
 
 }
 
-.bleu{
+.bleu {
     background-color: rgb(55, 85, 182);
     padding: 6px;
 }
 
-.Lac_Lioson{
+.Lac_Lioson {
     position: absolute;
     top: 105%;
     left: 14.3%;
     background-color: #1D3557;
     padding: 10px;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-left: 20px;
     border-radius: 30px;
 
-    a{
+    a {
         font-size: 2.5em;
         text-decoration: none;
         color: white;
@@ -60,23 +60,23 @@ header{
         display: flex;
     }
 
-    a:hover{
-        transform: scale(1.1,1.1);
+    a:hover {
+        transform: scale(1.1, 1.1);
         color: #b5d0f7;
     }
 }
 
-.Lac_bleu_d_Arolla{
+.Lac_bleu_d_Arolla {
     position: absolute;
     top: 133%;
     left: 28%;
     background-color: #1D3557;
     padding: 10px;
-    padding-right: 30px ;
+    padding-right: 30px;
     padding-left: 30px;
     border-radius: 30px;
 
-    a{
+    a {
         font-size: 2.5em;
         text-decoration: none;
         color: white;
@@ -84,23 +84,23 @@ header{
         display: flex;
     }
 
-    a:hover{
-        transform: scale(1.1,1.1);
+    a:hover {
+        transform: scale(1.1, 1.1);
         color: #b5d0f7;
     }
 }
 
-.Blausee{
+.Blausee {
     position: absolute;
     top: 96%;
     left: 43.1%;
     background-color: #1D3557;
     padding: 10px;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-left: 20px;
     border-radius: 30px;
 
-    a{
+    a {
         font-size: 2.5em;
         text-decoration: none;
         color: white;
@@ -108,23 +108,23 @@ header{
         display: flex;
     }
 
-    a:hover{
-        transform: scale(1.1,1.1);
+    a:hover {
+        transform: scale(1.1, 1.1);
         color: #b5d0f7;
     }
 }
 
-.Oeschinensee{
+.Oeschinensee {
     position: absolute;
     top: 106.9%;
     left: 43.97%;
     background-color: #1D3557;
     padding: 10px;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-left: 20px;
     border-radius: 30px;
 
-    a{
+    a {
         font-size: 2.5em;
         text-decoration: none;
         color: white;
@@ -132,23 +132,23 @@ header{
         display: flex;
     }
 
-    a:hover{
-        transform: scale(1.1,1.1);
+    a:hover {
+        transform: scale(1.1, 1.1);
         color: #b5d0f7;
     }
 }
 
-.Caumasee{
+.Caumasee {
     position: absolute;
     top: 91.9%;
     left: 74%;
     background-color: #1D3557;
     padding: 10px;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-left: 20px;
     border-radius: 30px;
 
-    a{
+    a {
         font-size: 2.5em;
         text-decoration: none;
         color: white;
@@ -156,23 +156,23 @@ header{
         display: flex;
     }
 
-    a:hover{
-        transform: scale(1.1,1.1);
+    a:hover {
+        transform: scale(1.1, 1.1);
         color: #b5d0f7;
     }
 }
 
-.Crestasee{
+.Crestasee {
     position: absolute;
     top: 76%;
     left: 82.5%;
     background-color: #1D3557;
     padding: 10px;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-left: 20px;
     border-radius: 30px;
-    
-    a{
+
+    a {
         font-size: 2.5em;
         text-decoration: none;
         color: white;
@@ -180,23 +180,23 @@ header{
         display: flex;
     }
 
-    a:hover{
-        transform: scale(1.1,1.1);
+    a:hover {
+        transform: scale(1.1, 1.1);
         color: #b5d0f7;
     }
 }
 
-.Seealpsee{
+.Seealpsee {
     position: absolute;
     top: 36.7%;
     left: 75.5%;
     background-color: #1D3557;
     padding: 10px;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-left: 20px;
     border-radius: 30px;
 
-    a{
+    a {
         font-size: 2.5em;
         text-decoration: none;
         color: white;
@@ -204,8 +204,8 @@ header{
         display: flex;
     }
 
-    a:hover{
-        transform: scale(1.1,1.1);
+    a:hover {
+        transform: scale(1.1, 1.1);
         color: #b5d0f7;
     }
 }
@@ -218,11 +218,11 @@ header{
 
 
 
-footer{
-    
+footer {
+
     font-size: 1.2em;
 
-    .bleu1{
+    .bleu1 {
         background-color: rgb(55, 85, 182);
         padding: 6px;
     }
@@ -231,9 +231,12 @@ footer{
     padding: 1px;
     text-align: center;
 
-    .liens{
+    .liens {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        a{
+            text-decoration: none;
+        }
     }
 }

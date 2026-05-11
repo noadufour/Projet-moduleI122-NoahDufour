@@ -1,23 +1,23 @@
-body{
+body {
     margin: 0px;
     font-family: Arial, sans-serif;
     background-color: rgb(226, 223, 223);
 }
 
-header{
-    
+header {
+
     background-color: #1D3557;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-around;
 
-    p{
+    p {
         font-size: 2em;
-        
+
     }
 
-    a{
+    a {
         color: white;
         text-decoration: none;
         background-color: rgb(58, 23, 255);
@@ -26,51 +26,98 @@ header{
         font-size: 1.1em;
         transition: all 0.3s ease;
     }
-    
-    a:hover{
-        transform: scale(1.2,1.2);
+
+    a:hover {
+        transform: scale(1.2, 1.2);
     }
 
-    h1{
+    h1 {
         font-size: 3em;
     }
 
 }
 
-.bleu{
+.bleu {
     background-color: rgb(55, 85, 182);
     padding: 6px;
 }
 
-.sous_header{
+.retour {
+    display: flex;
+    margin-left: 1em;
+    margin-top: 1em;
+
+    a {
+        background-color: white;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: black;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    a:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.sous_header {
 
     background-color: #c6ddfc;
-    margin: 5em;
+    margin-bottom: 5em;
+    margin-left: 13em;
+    margin-right: 13em;
     border-radius: 30px;
 
-    .logo{
+    .logo {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
         padding-left: 15em;
         padding-right: 15em;
         padding-top: 30px;
     }
 
-    .info{
+    .info {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
         padding-left: 15em;
         padding-right: 15em;
         padding-top: 30px;
     }
 }
 
+p {
+    font-size: 20px;
+}
 
-footer{
-    
+.lac {
+    margin-left: 13.7em;
+    margin-right: 13.2em;
+}
+
+.image_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+
+.image {
+    position: absolute;
+    top: 112.7%;
+    left: 64.1%;
+}
+
+
+
+footer {
+
     font-size: 1.2em;
 
-    .bleu1{
+    .bleu1 {
         background-color: rgb(55, 85, 182);
         padding: 6px;
     }
@@ -79,9 +126,12 @@ footer{
     padding: 1px;
     text-align: center;
 
-    .liens{
+    .liens {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        a{
+            text-decoration: none;
+        }
     }
 }

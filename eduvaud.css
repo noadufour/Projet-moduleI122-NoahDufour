@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(226, 223, 223);
+}
+
+header {
+
+    background-color: #1D3557;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    p {
+        font-size: 2em;
+
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        background-color: rgb(58, 23, 255);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.1em;
+        transition: all 0.3s ease;
+    }
+
+    a:hover {
+        transform: scale(1.2, 1.2);
+
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+}
+
+.bleu {
+    background-color: rgb(55, 85, 182);
+    padding: 6px;
+}
+
+.info {
+
+
+    display: flex;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    flex-direction: row;
+    font-size: 1.3em;
+
+
+    img:hover {
+        transform: rotate(360deg);
+        transition: transform 3s ease;
+    }
+
+    img {
+        transition: transform 3s ease;
+        border-radius: 20px;
+    }
+
+    .info_perso {
+        p {
+            margin: 2em;
+            margin-top: 3em;
+        }
+        border-radius: 20px;
+        background-color: rgb(247, 241, 241);
+        margin-right: 6em;
+
+    }
+
+}
+
+.info_montagne {
+    display: flex;
+    background-color: rgb(247, 241, 241);
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    font-size: 1.3em;
+    border-radius: 20px;
+
+    p {
+        margin: 2em;
+        margin-top: 3em;
+    }
+}
+
+.image_perso {
+
+    .img_1 {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 15em;
+        margin-right: 15em;
+        margin-bottom: 3em;
+
+        img {
+            border-radius: 20px;
+        }
+
+    }
+
+    .img_2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5em;
+
+        img {
+            border-radius: 20px;
+        }
+    }
+
+}
+
+
+footer {
+
+    font-size: 1.2em;
+
+    .bleu1 {
+        background-color: rgb(55, 85, 182);
+        padding: 6px;
+    }
+
+    background-color: rgb(180, 180, 180);
+    padding: 1px;
+    text-align: center;
+
+    .liens {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        a{
+            text-decoration: none;
+        }
+    }
+}
