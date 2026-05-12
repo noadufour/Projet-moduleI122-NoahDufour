@@ -63,7 +63,7 @@ header {
     }
 }
 
-.mont_tendre {
+.Allalinhorn {
 
     .titre {
         display: flex;
@@ -72,7 +72,7 @@ header {
         text-decoration: underline;
         position: absolute;
         top: 16%;
-        left: 38%;
+        left: 40.5%;
     }
 
     .sous_header {
@@ -112,7 +112,7 @@ header {
 
     .image_1 {
         display: flex;
-        justify-content: center;
+        align-items: center;
         justify-content: space-around;
         margin-bottom: 5em;
         margin-top: 5em;
@@ -134,6 +134,7 @@ header {
         margin-right: 20em;
         padding-top: 2em;
         margin-bottom: 5em;
+        box-shadow: rgb(95, 95, 95) 0.5px 0.5px 30px;
 
         .randonnee {
             display: flex;
@@ -142,8 +143,8 @@ header {
 
             .niveau {
                 position: absolute;
-                left: 19.5%;
-                top: 196%;
+                left: 21%;
+                top: 184.2%;
                 background-color: rgb(37, 35, 35);
                 color: white;
                 border-radius: 20px;
@@ -153,18 +154,18 @@ header {
 
             .image_3 {
                 position: absolute;
-                left: 63.9%;
+                left: 60.05%;
             }
 
             .image_4 {
                 position: absolute;
-                left: 19.7%;
-                top: 249.7%;
+                left: 21%;
+                top: 224.9%;
                 transition: transform 0.8s ease;
             }
 
             .image_4:hover {
-                transform: translate(430px, -260px) scale(5);
+                transform: translate(437px, -190px) scale(3);
             }
         }
 
@@ -197,7 +198,7 @@ header {
 
 }
 
-.dole {
+.Alphubel {
 
     .titre {
         display: flex;
@@ -205,8 +206,8 @@ header {
         font-size: 2em;
         text-decoration: underline;
         position: absolute;
-        top: 287%;
-        left: 43%;
+        top: 270%;
+        left: 42.5%;
     }
 
     .sous_header {
@@ -268,6 +269,7 @@ header {
         margin-right: 20em;
         padding-top: 1em;
         margin-bottom: 5em;
+        box-shadow: rgb(95, 95, 95) 0.5px 0.5px 30px;
 
         .randonnee {
             display: flex;
@@ -276,8 +278,8 @@ header {
 
             .niveau {
                 position: absolute;
-                left: 18.3%;
-                top: 435%;
+                left: 19.8%;
+                top: 425.4%;
                 background-color: rgb(37, 35, 35);
                 color: white;
                 border-radius: 20px;
@@ -287,13 +289,13 @@ header {
 
             .image_3 {
                 position: absolute;
-                left: 59%;
+                left: 60.5%;
             }
 
             .image_4 {
                 position: absolute;
-                left: 18.3%;
-                top: 479.8%;
+                left: 19.9%;
+                top: 469.8%;
                 transition: transform 0.8s ease;
             }
 
@@ -330,7 +332,7 @@ header {
 
 }
 
-.dent_de_vaulion {
+.Strahlhorn {
 
     .titre {
         display: flex;
@@ -401,6 +403,7 @@ header {
         margin-right: 20em;
         padding-top: 1em;
         margin-bottom: 5em;
+        box-shadow: rgb(95, 95, 95) 0.5px 0.5px 30px;
 
         .randonnee {
             display: flex;
@@ -409,8 +412,8 @@ header {
 
             .niveau {
                 position: absolute;
-                left: 18.3%;
-                top: 674.7%;
+                left: 21.3%;
+                top: 668.4%;
                 background-color: rgb(37, 35, 35);
                 color: white;
                 border-radius: 20px;
@@ -425,13 +428,13 @@ header {
 
             .image_4 {
                 position: absolute;
-                left: 18.3%;
-                top: 714.4%;
+                left: 21.3%;
+                top: 705.9%;
                 transition: transform 0.8s ease;
             }
 
             .image_4:hover {
-                transform: translate(500px, -200px) scale(4);
+                transform: translate(500px, -200px) scale(3);
             }
         }
 

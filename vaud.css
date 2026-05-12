@@ -134,6 +134,7 @@ header {
         margin-right: 20em;
         padding-top: 2em;
         margin-bottom: 5em;
+        box-shadow: rgb(95, 95, 95) 0.5px 0.5px 30px;
 
         .randonnee {
             display: flex;
@@ -268,6 +269,7 @@ header {
         margin-right: 20em;
         padding-top: 1em;
         margin-bottom: 5em;
+        box-shadow: rgb(95, 95, 95) 0.5px 0.5px 30px;
 
         .randonnee {
             display: flex;
@@ -401,6 +403,7 @@ header {
         margin-right: 20em;
         padding-top: 1em;
         margin-bottom: 5em;
+        box-shadow: rgb(95, 95, 95) 0.5px 0.5px 30px;
 
         .randonnee {
             display: flex;
